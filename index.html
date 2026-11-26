@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Duduzada — Minha História</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="imagens/favicon.svg">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header">
+    <a class="brand" href="#inicio">Duduzada<span>- MINHA HISTÓRIA -</span></a>
+    <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false"></button>
+    <nav class="nav">
+      <a href="#inicio">Sobre mim</a><a href="#vasco">Vasco</a><a href="#games">Games</a>
+      <a href="#igreja">Igreja</a><a href="#outros">Outros</a><a class="contact-link" href="#contato">Fale comigo</a>
+    </nav>
+  </header>
+
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-copy">
+        <div class="eyebrow"><i></i> HISTÓRIA DO DUDUZADA</div>
+        <h1>Vasco, videogame, amor e fé: as coisas que eu gosto de fazer.</h1>
+        <p>Sou o Duduzada. Aprendi a torcer pelo Vasco e a segurar um controle na mão por causa do meu pai, encontrei no videogame o meu jeito de desacelerar, e tenho na minha namorada e na igreja os meus lugares de paz. Este site é sobre isso.</p>
+        <div class="hero-buttons"><a class="pill filled" href="#vasco">Conhecer a minha história</a><a class="pill outlined" href="#vasco">Vasco é sentimento</a></div>
+        <div class="tags"><span>VASCO</span><span>VIDEOGAME</span><span>MINHA NAMORADA</span><span>IGREJA</span></div>
+      </div>
+      <div class="hero-photo photo-vasco" role="img" aria-label="Torcida no estádio"></div>
+    </section>
+
+
+    <section class="vasco-section" id="vasco">
+      <div class="section-grid dark-grid">
+        <div class="section-copy">
+          <div class="eyebrow light"><i></i> HERANÇA DO MEU PAI</div>
+          <h2>O Vasco eu não escolhi. Eu recebi do meu pai.</h2>
+          <p>Foi ele quem me levou pela primeira vez ao estádio e quem me explicou, sem pressa, o que era aquele escudo com a faixa diagonal. Cresci ouvindo histórias de São Januário e aprendi cedo que torcer pelo Vasco é mais do que assistir a noventa minutos de futebol.</p>
+          <p>É um clube de gente que veio de baixo, que abriu portas quando o resto fechava. Talvez por isso a torcida cante com tanto orgulho. Hoje eu e meu pai dividimos o mesmo nervosismo, o mesmo grito de gol e a mesma camisa.</p>
+          <p class="family-phrase">Puxei a aparência da minha mãe, mas os gostos do meu pai.</p>
+          <div class="timeline">
+            <article><strong>1898</strong><div><h3>Nasce o clube</h3><p>Em 21 de agosto, um grupo de remadores funda o Club de Regatas Vasco da Gama, no Rio de Janeiro.</p></div></article>
+            <article><strong>1924</strong><div><h3>A Resposta Histórica</h3><p>O clube recusa a exigência de excluir seus jogadores negros e pobres do campeonato. Um marco na luta contra o racismo no futebol.</p></div></article>
+            <article><strong>1927</strong><div><h3>São Januário</h3><p>Inauguração do estádio erguido com dinheiro da própria torcida — por muito tempo, o maior do Brasil.</p></div></article>
+            <article><strong>1998</strong><div><h3>A Libertadores</h3><p>O título continental conquistado em cima do River Plate, fora de casa. Uma das maiores noites da história vascaína.</p></div></article>
+          </div>
+          <blockquote>“Vasco é o time da virada, Vasco é o time do amor.”<small>O QUE A ARQUIBANCADA CANTA</small></blockquote>
+          <div class="anthem-player" aria-label="Reprodutor do hino do Vasco">
+            <div class="anthem-copy">
+              <span class="anthem-label">TRILHA VASCAÍNA</span>
+              <strong>Hino do Club de Regatas Vasco da Gama</strong>
+              <span class="anthem-status" id="anthemStatus" aria-live="polite">Adicione o arquivo de áudio para ouvir.</span>
+            </div>
+            <div class="anthem-controls">
+              <button class="anthem-button" id="anthemPlay" type="button" aria-label="Tocar hino">Play</button>
+              <button class="anthem-button secondary" id="anthemPause" type="button" aria-label="Pausar hino" disabled>Pause</button>
+            </div>
+            <audio id="vascoAnthem" preload="none">
+              <source src="audio/hino-vasco.mp3" type="audio/mpeg">
+              Seu navegador não suporta áudio HTML5.
+            </audio>
+          </div>
+        </div>
+        <div class="side-image-wrap"><div class="side-photo father-stadium"></div><span>DO MEU PAI PARA MIM</span></div>
+      </div>
+    </section>
+
+
+    <section class="games-section" id="games">
+      <div class="section-heading-row">
+        <div><div class="eyebrow"><i></i> VIDEOGAME</div><h2>O console chegou junto com o Vasco: pelas mãos do meu pai.</h2></div>
+        <p>Foi ele quem me deu o primeiro controle e quem me levou ao estádio. Hoje, ligar o videogame é o meu ritual para desacelerar depois da aula — e para lembrar de onde veio o meu gosto por tudo isso.</p>
+      </div>
+      <div class="cards four">
+        <article class="card"><div class="card-icon" aria-hidden="true"></div><h3>Futebol de videogame</h3><p>Meu primeiro vício. Sempre com o Vasco em campo, tentando repetir o que o meu pai me ensinou a gostar.</p></article>
+        <article class="card"><div class="card-icon" aria-hidden="true"></div><h3>Mundos abertos</h3><p>Jogos que dão liberdade para explorar sem pressa: seguir o caminho principal ou só parar e olhar a paisagem.</p></article>
+        <article class="card"><div class="card-icon" aria-hidden="true"></div><h3>Corrida e velocidade</h3><p>Partidas rápidas para desligar a cabeça. Uma pista, um carro e a vontade de baixar o tempo.</p></article>
+        <article class="card"><div class="card-icon" aria-hidden="true"></div><h3>Jogar com os amigos</h3><p>Metade da graça está no chat. Rir de besteira com a galera vale mais do que qualquer vitória.</p></article>
+      </div>
+      <div class="cards two note-cards"><article class="card"><h4>COMO COMEÇOU</h4><p>Eu era criança e ficava olhando o meu pai jogar. Um dia ele me passou o controle e disse que eu ia aprender rápido. Aprendi — e nunca mais larguei.</p></article><article class="card"><h4>COMO É HOJE</h4><p>A rotina apertou com a faculdade, então o jogo virou prêmio: depois das entregas e dos estudos, uma partida com calma e a cabeça limpa.</p></article></div>
+    </section>
+
+
+    <section class="girlfriend-section" id="outros">
+      <div class="girlfriend-copy">
+        <div class="eyebrow"><i></i> OUTROS — MINHA NAMORADA</div>
+        <h2>Os melhores momentos são ao lado dela.</h2>
+        <p>Gosto de passar meu tempo com minha namorada, conversar, sair e aproveitar os momentos simples juntos. É uma parte muito especial da minha vida.</p>
+      </div>
+      <div class="girlfriend-photo couple-photo" aria-label="Casal de mãos dadas"></div>
+    </section>
+
+
+    <section class="faith-banner" id="igreja">
+      <div class="faith-content"><div class="eyebrow light"><i></i> FÉ E COMUNIDADE</div><h2>A igreja é onde eu me lembro do que realmente importa.</h2><p>Sou da igreja, e isso não é só um item da lista: é o que organiza a minha semana. Ali aprendi sobre gratidão, sobre cuidar de gente e sobre não carregar tudo sozinho.</p><blockquote>“Entrega o teu caminho ao Senhor, confia nele, e ele o fará.”<small>SALMOS 37:5</small></blockquote></div>
+    </section>
+    <section class="faith-cards"><div class="cards three"><article class="card"><div class="card-icon" aria-hidden="true"></div><h3>Comunidade</h3><p>Gente que ora comigo, que pergunta como eu estou e que comemora junto quando a semana dá certo.</p></article><article class="card"><div class="card-icon" aria-hidden="true"></div><h3>Gratidão</h3><p>Um lugar para lembrar que o que eu tenho é presente, não conquista solitária.</p></article><article class="card"><div class="card-icon" aria-hidden="true"></div><h3>Servir</h3><p>Aprender a ajudar sem esperar nada em troca — e levar isso para a faculdade, para casa e para o jogo.</p></article></div></section>
+
+
+    <section class="contact-section" id="contato">
+      <div class="contact-copy"><div class="eyebrow"><i></i> CONTATO</div><h2>Quer trocar uma ideia?</h2><p>Se quiser comentar o trabalho da faculdade, falar de Vasco, indicar um jogo, combinar um café ou só mandar um oi: preencha o formulário e eu respondo.</p>
+        <div class="contact-points"><div><span aria-hidden="true"></span><p><b>Mensagem direta</b><br>O formulário chega direto para mim, sem intermediário.</p></div><div><span aria-hidden="true"></span><p><b>Resposta tranquila</b><br>Respondo em alguns dias, entre as aulas e os estudos.</p></div><div><span aria-hidden="true"></span><p><b>Sobre o trabalho</b><br>Sugestões e feedbacks sobre o site são muito bem-vindos.</p></div></div>
+      </div>
+      <form class="contact-form" id="contactForm"><label>NOME<input type="text" placeholder="Como posso te chamar?" required></label><label>E-MAIL<input type="email" placeholder="voce@exemplo.com" required></label><label class="full">MENSAGEM<textarea rows="5" placeholder="Escreva aqui o que você quer me contar" required></textarea></label><button class="pill filled" type="submit">Enviar mensagem</button><p class="form-message" id="formMessage"></p></form>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="footer-main"><div><a class="brand" href="#inicio">Duduzada<span>- MINHA HISTÓRIA -</span></a><p>Um site de trabalho da faculdade sobre as coisas que eu gosto de fazer: o Vasco que herdei do meu pai, o videogame, o tempo com a minha namorada e a minha fé.</p></div><div><h4>NAVEGAR</h4><a href="#inicio">Sobre mim</a><a href="#vasco">Vasco</a><a href="#games">Videogame</a><a href="#namorada">Namorada</a><a href="#outros">Igreja</a><a href="#contato">Contato</a></div><div><h4>NO SITE</h4><p>Trabalho de faculdade</p><p>Feito no VS Code</p><p>Um pouco de mim em cada seção</p></div></div><div class="footer-bottom"><p>© 2026 Duduzada. Todos os direitos reservados.</p><p>Vasco, videogame, amor e fé.</p></div></footer>
+  <script src="js/script.js"></script>
+</body>
+</html>
